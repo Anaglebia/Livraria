@@ -17,6 +17,7 @@
 .container {
     display: flex;
     align-items: center;
+    justify-content: space-between;
 }
 
 .container__imagem {
@@ -56,3 +57,26 @@
 .container__botao {
     display: none;
 }
+
+@media screen  and(min-width:1024pz){
+    .cabeçalho__menu-hamburguer{
+        display: none;
+    }
+    
+}
+
+@media screen and(min-width:1024) {
+    
+}
+
+svg{
+   
+    width:30px;
+    height:30px;
+    color:var(--azul);
+}
+h1,h2{
+    text-align: center;
+    color:var(--azul);
+}
+
